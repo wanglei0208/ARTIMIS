@@ -1,5 +1,5 @@
 # ARTIMIS:Adaptive Reweighing for Transferable Evasion via Meta-learning in Zero-Query Network Intrusion Detection Systems
-![ARTIMIS Demo](framework.pdf)
+![ARTIMIS Demo](./framework.pdf)
 
 This is the official repository for the ARTIMIS framework, designed for generating and evaluating adversarial attacks against Network Intrusion Detection Systems (NIDS).
 
