@@ -1,0 +1,138 @@
+#2018_dos
+
+
+AlexNet:
+  arch: alexnet
+  ckpt: checkpoints/2018/dos1/alexnet.pth
+
+AlertNet:
+  arch: alertnet
+  ckpt: checkpoints/2018/dos1/alertnet.pth
+
+DeepNet:
+  arch: deepnet
+  ckpt: checkpoints/2018/dos1/deepnet.pth
+
+IdsNet:
+  arch: idsnet
+  ckpt: checkpoints/2018/dos1/idsnet.pth
+
+RF:
+  arch: rf
+  ckpt: checkpoints/2018/dos1/rf1.joblib
+
+XGBOOST:
+  arch: xgboost
+  ckpt: checkpoints/2018/dos1/xgboost1.json
+
+RF2:
+  arch: rf2
+  ckpt: checkpoints/2018/dos1/rf2.joblib
+
+XGBOOST2:
+  arch: xgboost2
+  ckpt: checkpoints/2018/dos1/xgboost2.json
+
+KITNET:
+  arch: kitnet_rf
+  ckpt:
+    kitnet: checkpoints/2018/dos1/kitnet/kitnet_model.pkl
+    rf: checkpoints/2018/dos1/kitnet/rf_model.pkl
+
+FSNET:
+  arch: fsnet
+  ckpt: checkpoints/2018/dos1/fsnet.pth
+
+MAMPF:
+  arch: mampf
+  ckpt:
+    mampf: checkpoints/2018/dos1/mampf/extractor.pkl
+    mlp: checkpoints/2018/dos1/mampf/classifier_best.pth
+
+DIFFRF:
+  arch: diff_rf
+  ckpt:
+    diffrf: checkpoints/2018/dos1/diff_rf/diff_rf_cicids_model.pkl
+    thresh_path: checkpoints/2018/dos1/diff_rf/diff_rf_cicids_threshold.txt
+
+
+LeNet:
+  arch: lenet
+  ckpt: checkpoints/2018/dos1/finetune/lenet.pth
+
+LSTM:
+  arch: lstm
+  ckpt: checkpoints/2018/dos1/finetune/lstm.pth
+
+MLP:
+  arch: mlp
+  ckpt: checkpoints/2018/dos1/finetune/mlp.pth
+
+#########################################################################################################
+#2018_dos2
+
+#LeNet:
+#  arch: lenet
+#  ckpt: checkpoints/2018/dos2/lenet.pth
+#
+#LSTM:
+#  arch: lstm
+#  ckpt: checkpoints/2018/dos2/lstm.pth
+#
+#MLP:
+#  arch: mlp
+#  ckpt: checkpoints/2018/dos2/mlp.pth
+#
+#AlexNet:
+#  arch: alexnet
+#  ckpt: checkpoints/2018/dos2/alexnet.pth
+#
+#AlertNet:
+#  arch: alertnet
+#  ckpt: checkpoints/2018/dos2/alertnet.pth
+#
+#DeepNet:
+#  arch: deepnet
+#  ckpt: checkpoints/2018/dos2/deepnet.pth
+#
+#IdsNet:
+#  arch: idsnet
+#  ckpt: checkpoints/2018/dos2/idsnet.pth
+#
+#RF:
+#  arch: rf
+#  ckpt: checkpoints/2018/dos2/rf1.joblib
+#
+#XGBOOST:
+#  arch: xgboost
+#  ckpt: checkpoints/2018/dos2/xgboost1.json
+#
+#RF2:
+#  arch: rf2
+#  ckpt: checkpoints/2018/dos2/rf2.joblib
+#
+#XGBOOST2:
+#  arch: xgboost2
+#  ckpt: checkpoints/2018/dos2/xgboost2.json
+#
+#KITNET:
+#  arch: kitnet_rf
+#  ckpt:
+#    kitnet: checkpoints/2018/dos2/kitnet/kitnet_model.pkl
+#    rf: checkpoints/2018/dos2/kitnet/rf_model.pkl
+#
+#FSNET:
+#  arch: fsnet
+#  ckpt: checkpoints/2018/dos2/fsnet.pth
+#
+#MAMPF:
+#  arch: mampf
+#  ckpt:
+#    mampf: checkpoints/2018/dos2/mampf/extractor.pkl
+#    mlp: checkpoints/2018/dos2/mampf/classifier_best.pth
+#
+#DIFFRF:
+#  arch: diff_rf
+#  ckpt:
+#    diffrf: checkpoints/2018/dos2/diff_rf/diff_rf_cicids_model.pkl
+#    thresh_path: checkpoints/2018/dos2/diff_rf/diff_rf_cicids_threshold.txt
