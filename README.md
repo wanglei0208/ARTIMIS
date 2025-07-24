@@ -1,8 +1,6 @@
 # ARTIMIS:Adaptive Reweighing for Transferable Evasion via Meta-learning in Zero-Query Network Intrusion Detection Systems
 ![ARTIMIS Demo](framework.pdf)
 
-# ARTIMIS Official Implementation
-
 This is the official repository for the ARTIMIS framework, designed for generating and evaluating adversarial attacks against Network Intrusion Detection Systems (NIDS).
 
 ## Quick Start
@@ -12,14 +10,12 @@ This is the official repository for the ARTIMIS framework, designed for generati
 Clone this repository and install the required dependencies.
 
 ```bash
-git clone [URL_TO_YOUR_REPOSITORY]
-cd ARTIMIS
 pip install -r requirements.txt
 ```
 
 ### 2. Data Preparation
 
-1.  **Download Datasets**: Obtain the raw network traffic data (e.g., CIC-IDS-2017/2018) from a public source such as the [Canadian Institute for Cybersecurity Datasets](https://www.yorku.ca/research/bccc/ucs-technical/cybersecurity-datasets-cds/).
+1.  **Download Datasets**: Obtain the raw network traffic data (e.g., BCCC-CIC-IDS-2017/2018) from a public source such as the [Canadian Institute for Cybersecurity Datasets](https://www.yorku.ca/research/bccc/ucs-technical/cybersecurity-datasets-cds/).
 
 2.  **Feature Extraction**: Process the raw `.pcap` files and extract features to create tabular data (`.csv` files).
 
@@ -35,12 +31,12 @@ Use the `train.py` scripts located in the `NIDS_Classfier/` subdirectories to tr
 
 ```bash
 # Example: Train an AlexNet model
-python NIDS_Classfier/CNN/train.py --model AlexNet --base_dir checkpoints/2018/brute_force/AlexNet
+python NIDS_Classfier/CNN/train.py --model AlexNet --base_dir ARTIMIS/CNN/2018/brute_force/AlexNet
 ```
 
 ### 4. Attack Generation
 
-Use `attack.py` to generate adversarial samples against the trained models. You will need to configure the surrogate and target models within the script or via command-line arguments.
+Use `attack.py` to generate adversarial samples. You will need to configure the surrogate and target models within the script or via command-line arguments.
 
 ```bash
 python artimis/attack.py
