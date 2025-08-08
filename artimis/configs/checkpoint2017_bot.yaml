@@ -1,0 +1,67 @@
+#2017_botnet
+AlexNet:
+  arch: alexnet
+  ckpt: checkpoints/2018/botnet/alexnet.pth
+
+AlertNet:
+  arch: alertnet
+  ckpt: checkpoints/2018/botnet/alertnet.pth
+
+DeepNet:
+  arch: deepnet
+  ckpt: checkpoints/2018/botnet/deepnet.pth
+
+IdsNet:
+  arch: idsnet
+  ckpt: checkpoints/2018/botnet/idsnet.pth
+
+RF:
+  arch: rf
+  ckpt: checkpoints/2018/botnet/rf.joblib
+
+XGBOOST:
+  arch: xgboost
+  ckpt: checkpoints/2018/botnet/xgboost.json
+
+RF2:
+  arch: rf2
+  ckpt: checkpoints/2018/botnet/rf2.joblib
+
+XGBOOST2:
+  arch: xgboost2
+  ckpt: checkpoints/2018/botnet/xgboost2.json
+
+KITNET:
+  arch: kitnet_rf
+  ckpt:
+    kitnet: checkpoints/2018/botnet/kitnet/kitnet_model.pkl
+    rf: checkpoints/2018/botnet/kitnet/rf_model.pkl
+
+FSNET:
+  arch: fsnet
+  ckpt: checkpoints/2018/botnet/fsnet.pth
+
+MAMPF:
+  arch: mampf
+  ckpt:
+    mampf: checkpoints/2018/botnet/mampf/extractor.pkl
+    mlp: checkpoints/2018/botnet/mampf/classifier_best.pth
+
+DIFFRF:
+  arch: diff_rf
+  ckpt:
+    diffrf: checkpoints/2018/botnet/diff_rf/diff_rf_cicids_model.pkl
+    thresh_path: checkpoints/2018/botnet/diff_rf/diff_rf_cicids_threshold.txt
+
+
+LeNet:
+  arch: lenet
+  ckpt: checkpoints/2018/botnet/finetune/lenet.pth
+
+LSTM:
+  arch: lstm
+  ckpt: checkpoints/2018/botnet/finetune/lstm.pth
+
+MLP:
+  arch: mlp
+  ckpt: checkpoints/2018/botnet/finetune/mlp.pth
