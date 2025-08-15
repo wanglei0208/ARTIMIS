@@ -54,27 +54,27 @@ XGBOOST-BB:
   arch: xgboost4
   ckpt: checkpoints/2018/brute_force/xgboost4.json
 
-KITNET:
-  arch: kitnet_rf
-  ckpt:
-    kitnet: checkpoints/2018/brute_force/kitnet/kitnet_model.pkl
-    rf: checkpoints/2018/brute_force/kitnet/rf_model.pkl
+# KITNET:
+#   arch: kitnet_rf
+#   ckpt:
+#     kitnet: checkpoints/2018/brute_force/kitnet/kitnet_model.pkl
+#     rf: checkpoints/2018/brute_force/kitnet/rf_model.pkl
 
 FSNET:
   arch: fsnet
   ckpt: checkpoints/2018/brute_force/fsnet.pth
 
-MAMPF:
-  arch: mampf
-  ckpt:
-    mampf: checkpoints/2018/brute_force/mampf/extractor.pkl
-    mlp: checkpoints/2018/brute_force/mampf/classifier_best.pth
+# MAMPF:
+#   arch: mampf
+#   ckpt:
+#     mampf: checkpoints/2018/brute_force/mampf/extractor.pkl
+#     mlp: checkpoints/2018/brute_force/mampf/classifier_best.pth
 
-DIFFRF:
-  arch: diff_rf
-  ckpt:
-    diffrf: checkpoints/2018/brute_force/diff_rf/diff_rf_model.pkl
-    thresh_path: checkpoints/2018/brute_force/diff_rf/diff_rf_threshold.txt
+# DIFFRF:
+#   arch: diff_rf
+#   ckpt:
+#     diffrf: checkpoints/2018/brute_force/diff_rf/diff_rf_model.pkl
+#     thresh_path: checkpoints/2018/brute_force/diff_rf/diff_rf_threshold.txt
 
 
 LeNet:
