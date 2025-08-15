@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="95511b00-41ac-4d45-8043-82533726da13" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artimis/figure/IEEE_ASR_bar_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preprocessing/BCCC-CIC-IDS2017/ddos_loit.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data_preprocessing/BCCC-CIC-IDS2017/ddos_loit.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preprocessing/BCCC-CIC-IDS2017/wednesday_benign.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data_preprocessing/BCCC-CIC-IDS2017/wednesday_benign.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preprocessing/benign_sample.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data_preprocessing/benign_sample.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preprocessing/clean.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data_preprocessing/clean.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preprocessing/malicious_sample.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data_preprocessing/malicious_sample.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preprocessing/merge_final.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data_preprocessing/merge_final.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preprocessing/processed_result/benign_sample_50000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preprocessing/processed_result/benign_sample_50000_selected.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preprocessing/processed_result/ddos.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preprocessing/processed_result/ddos_sample_50000_selected.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preprocessing/processed_result/ddos_selected_features.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preprocessing/processed_result/merge.csv" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "wanglei0208"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/wanglei0208/ARTIMIS",
+    "accountId": "43febf53-448d-4a84-83ff-39cbd0696b40"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="31JWh7R1CwH7Dp2kPe23dNe1g7i" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17890.14" />
+        <option value="bundled-python-sdk-5b207ade9991-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17890.14" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95511b00-41ac-4d45-8043-82533726da13" name="Changes" comment="" />
+      <created>1755242773050</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755242773050</updated>
+      <workItem from="1755242775087" duration="447000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

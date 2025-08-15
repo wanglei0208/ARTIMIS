@@ -1,0 +1,2 @@
+*.csv filter=lfs diff=lfs merge=lfs -text
+data/2018/brute_force/bf.csv -filter=lfs

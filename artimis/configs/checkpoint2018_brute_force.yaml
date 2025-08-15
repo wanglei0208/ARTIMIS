@@ -1,0 +1,165 @@
+#2018_brute_force
+
+#LeNet:
+#  arch: lenet
+#  ckpt: checkpoints/2018/brute_force/lenet.pth
+#
+#LSTM:
+#  arch: lstm
+#  ckpt: checkpoints/2018/brute_force/lstm.pth
+#
+#MLP:
+#  arch: mlp
+#  ckpt: checkpoints/2018/brute_force/mlp.pth
+
+AlexNet:
+  arch: alexnet
+  ckpt: checkpoints/2018/brute_force/alexnet.pth
+
+AlertNet:
+  arch: alertnet
+  ckpt: checkpoints/2018/brute_force/alertnet.pth
+
+DeepNet:
+  arch: deepnet
+  ckpt: checkpoints/2018/brute_force/deepnet.pth
+
+IdsNet:
+  arch: idsnet
+  ckpt: checkpoints/2018/brute_force/idsnet.pth
+
+RF1:
+  arch: rf1
+  ckpt: checkpoints/2018/brute_force/rf1.joblib
+RF2:
+  arch: rf2
+  ckpt: checkpoints/2018/brute_force/rf2.joblib
+RF3:
+  arch: rf3
+  ckpt: checkpoints/2018/brute_force/rf3.joblib
+RF-BB:
+  arch: rf4
+  ckpt: checkpoints/2018/brute_force/rf4.joblib
+
+XGBOOST1:
+  arch: xgboost1
+  ckpt: checkpoints/2018/brute_force/xgboost1.json
+XGBOOST2:
+  arch: xgboost2
+  ckpt: checkpoints/2018/brute_force/xgboost2.json
+XGBOOST3:
+  arch: xgboost3
+  ckpt: checkpoints/2018/brute_force/xgboost3.json
+XGBOOST-BB:
+  arch: xgboost4
+  ckpt: checkpoints/2018/brute_force/xgboost4.json
+
+KITNET:
+  arch: kitnet_rf
+  ckpt:
+    kitnet: checkpoints/2018/brute_force/kitnet/kitnet_model.pkl
+    rf: checkpoints/2018/brute_force/kitnet/rf_model.pkl
+
+FSNET:
+  arch: fsnet
+  ckpt: checkpoints/2018/brute_force/fsnet.pth
+
+MAMPF:
+  arch: mampf
+  ckpt:
+    mampf: checkpoints/2018/brute_force/mampf/extractor.pkl
+    mlp: checkpoints/2018/brute_force/mampf/classifier_best.pth
+
+DIFFRF:
+  arch: diff_rf
+  ckpt:
+    diffrf: checkpoints/2018/brute_force/diff_rf/diff_rf_model.pkl
+    thresh_path: checkpoints/2018/brute_force/diff_rf/diff_rf_threshold.txt
+
+
+LeNet:
+  arch: lenet
+  ckpt: checkpoints/2018/brute_force/finetune/lenet.pth
+
+LSTM:
+  arch: lstm
+  ckpt: checkpoints/2018/brute_force/finetune/lstm.pth
+
+MLP1:
+  arch: mlp1
+  ckpt: checkpoints/2018/brute_force/finetune/mlp.pth
+MLP2:
+  arch: mlp2
+  ckpt: checkpoints/2018/brute_force/finetune/mlp2.pth
+MLP3:
+  arch: mlp3
+  ckpt: checkpoints/2018/brute_force/finetune/mlp3.pth
+
+#########################################################################################################
+#2018_brute_force2
+
+#LeNet:
+#  arch: lenet
+#  ckpt: checkpoints/2018/brute_force2/lenet.pth
+#
+#LSTM:
+#  arch: lstm
+#  ckpt: checkpoints/2018/brute_force2/lstm.pth
+#
+#MLP:
+#  arch: mlp
+#  ckpt: checkpoints/2018/brute_force2/mlp.pth
+#
+#AlexNet:
+#  arch: alexnet
+#  ckpt: checkpoints/2018/brute_force2/alexnet.pth
+#
+#AlertNet:
+#  arch: alertnet
+#  ckpt: checkpoints/2018/brute_force2/alertnet.pth
+#
+#DeepNet:
+#  arch: deepnet
+#  ckpt: checkpoints/2018/brute_force2/deepnet.pth
+#
+#IdsNet:
+#  arch: idsnet
+#  ckpt: checkpoints/2018/brute_force2/idsnet.pth
+#
+#RF:
+#  arch: rf
+#  ckpt: checkpoints/2018/brute_force2/rf.joblib
+#
+#XGBOOST:
+#  arch: xgboost
+#  ckpt: checkpoints/2018/brute_force2/xgboost.json
+#
+#RF2:
+#  arch: rf2
+#  ckpt: checkpoints/2018/brute_force2/rf2.joblib
+#
+#XGBOOST2:
+#  arch: xgboost2
+#  ckpt: checkpoints/2018/brute_force2/xgboost2.json
+#
+#KITNET:
+#  arch: kitnet_rf
+#  ckpt:
+#    kitnet: checkpoints/2018/brute_force2/kitnet/kitnet_model.pkl
+#    rf: checkpoints/2018/brute_force2/kitnet/rf_model.pkl
+#
+#FSNET:
+#  arch: fsnet
+#  ckpt: checkpoints/2018/brute_force2/fsnet.pth
+#
+#MAMPF:
+#  arch: mampf
+#  ckpt:
+#    mampf: checkpoints/2018/brute_force2/mampf/extractor.pkl
+#    mlp: checkpoints/2018/brute_force2/mampf/classifier_best.pth
+#
+#DIFFRF:
+#  arch: diff_rf
+#  ckpt:
+#    diffrf: checkpoints/2018/brute_force2/diff_rf/diff_rf_cicids_model.pkl
+#    thresh_path: checkpoints/2018/brute_force2/diff_rf/diff_rf_cicids_threshold.txt
