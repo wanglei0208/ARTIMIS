@@ -27,7 +27,7 @@ def get_args():
     parser.add_argument('--momentum', type=float, default=1.0,help='momentum value for MI-FGSM')
     parser.add_argument('--meta-iters', type=int, default=10, help='outer meta task iterations I')
     parser.add_argument('--meta-alpha', type=float, default=0.005, help='outer step size for meta gradient update')
-    parser.add_argument('--target-models', nargs='+', default=['RF-BB','XGBOOST-BB','MAMPF','KITNET','AlexNet','AlertNet','DeepNet','IdsNet'])
+    parser.add_argument('--target-models', nargs='+', default=['RF-BB','XGBOOST-BB','AlexNet','AlertNet','DeepNet','IdsNet'])
     parser.add_argument('--surrogate-models', nargs='+', default=['MLP1', 'LeNet', 'LSTM','RF1','XGBOOST1'])
     #parser.add_argument('--surrogate-models', nargs='+', default=['RF1','RF2','RF3'])
     #parser.add_argument('--surrogate-models', nargs='+', default=['RF1','RF2','XGBOOST1','XGBOOST2'])
